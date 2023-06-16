@@ -1,9 +1,9 @@
 import React from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+import axios from 'axios'
 import './App.css'
 import Navbar from './Components/NavBar/NavBar'
-import Banner from './Components/NavBar/Banner/Banner'
+import Banner from './Components/Banner/Banner'
+import RowPost from './Components/RowPost/RowPost'
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
        
       <Navbar />
       <Banner />
+      <RowPost />
     </>
   )
 }
