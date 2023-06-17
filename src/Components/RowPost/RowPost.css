@@ -11,10 +11,37 @@
 }
 
 .poster{
+    cursor: pointer;
     max-height: 250px;
     margin-right: 10px;
 }
 
 .posters::-webkit-scrollbar{
     display: none;
+}
+
+.smallPoster{
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+}
+
+.smallPoster:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.poster:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
